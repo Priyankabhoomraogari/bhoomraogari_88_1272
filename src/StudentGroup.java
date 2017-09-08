@@ -14,6 +14,7 @@ import java.util.Date;
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
+	return Students[] students;
 	
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
@@ -25,12 +26,14 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
+		
 		// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
+		
 		// Add your implementation here
 	}
 
@@ -42,6 +45,8 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudent(Student student, int index) {
+		
+		
 		// Add your implementation here
 	}
 
