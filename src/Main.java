@@ -23,6 +23,26 @@ public class Main {
 			dob=s.nextLine();
 		}
 		StudentArray.add(new Student(name,id,marks,dob));
+		for (ListIterator s = student.listIterator(); s.hasNext(); ) {
+			Student st = (Student)s.next();
+			System.out.println(st);
+		}
+		
+		ListIterator sl = studentArray.listIterator();
+		
+	    while (studentIterator.hasNext()) {
+			Student st = (Student)studentIterator.next();
+			System.out.println(st);
+		}	
+	}
+}
+
+
+}	
+		
+
+		
+	}
 
 
 
