@@ -14,7 +14,7 @@ public class Main {
 		for(int i=0;i<n;i++)
 		{
 			System.out.println("Enter name");
-			name=s.nextLine();
+			fname=s.nextLine();
 			System.out.println("Enter id");
 			id=s.nextInt();
 			System.out.println("Enter marks");
@@ -22,7 +22,7 @@ public class Main {
 			System.out.println("Enter dob");
 			dob=s.nextLine();
 		}
-		StudentArray.add(new Student(name,id,marks,dob));
+		StudentArray.add(new Student(fname,id,marks,dob));
 		for (ListIterator s = student.listIterator(); s.hasNext(); ) {
 			Student st = (Student)s.next();
 			System.out.println(st);
