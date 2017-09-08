@@ -44,8 +44,17 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		
 	
+if(int i<0||i>Student.length())
+{
+	try{
+		System.out.println("IllegalArgumentException");
+	}
+	catch(IllegalArgumentException ie)
+	{
+		System.out.println(ie);
+	}
+}
 	}
 
 	@Override
